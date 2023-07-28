@@ -1,0 +1,9 @@
+ const response = await fetch(url, {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTUxNGUwYzIxMjc0MTkxNjAyNGZhNiIsImlhdCI6MTY4ODU2MDY3MH0.CyrY2UH5fhmteP3M8JyB3X-z1GcEc01bLnuXhFYyh1A",
+    },
+    
+  });
+  console.log(response.json()); 
